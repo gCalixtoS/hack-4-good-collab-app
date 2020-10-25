@@ -1,0 +1,41 @@
+.start{
+    border-radius: 50%;
+    background-color: #00c2cb;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+
+.display{
+    flex-direction: row;
+}
+
+.arrow {
+    border: solid  #00c2cb;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    margin-top: 35%;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    float: left;
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
